@@ -1,0 +1,36 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(193, 227, 227);
+}
+.foto_conteiner{
+    width: 100%;
+    text-align: center;
+ 
+
+}
+.conteiner{
+    /*grid deixa malhado*/
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    /*largura maxima, se a tela for pequena se adapta*/
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+    
+}
+.botao{
+    width: 60px;
+    height: 60px;
+    
+
+}
+p{
+    margin-top: 0;
+
+}
+/*selecionado todas DIV dentro do conteiner*/
+.conteiner > div{
+cursor: pointer;
+}
