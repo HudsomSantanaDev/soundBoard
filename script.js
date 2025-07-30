@@ -1,3 +1,7 @@
+
+
+
+
 let audios = [
     {
         legenda: "Desbeijar minha boca", caminho: "audio/henriqueejulianooficial-desbeijar-minha-boca-c2f932ee.mp3"
@@ -50,3 +54,4 @@ botoes.forEach(botao => {
         });
     });
 });
+
