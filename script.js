@@ -44,9 +44,9 @@ botoes.forEach(botao => {
     botao.addEventListener('click', () => {
         let som = audios[botao.getAttribute('data-item')];
         audioTag.setAttribute('src', som.caminho);
-        
+
         audioTag.addEventListener('loadeddata', () => {
             audioTag.play();
-        })
+        });
     });
 });
